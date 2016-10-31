@@ -23,17 +23,4 @@ The following files are all needed to build and load the application.
    The content of this folder is updated by "sencha app upgrade".
 
 The TextAreaPicker is only one file
- - `"TextAreaPicker.js"` - The TextAreaPicker custom component class which is located in the path below.
-
-# Other Folders
-
-## Basic Application Structure
-
-Applications that target a single toolkit will have the following structure.
-
-    app/                            # Contains JavaScript code
-        view/                       # Views 
-						 common/
-                     form/
-											     field/   # TextAreaPicker.js is resides here
-
+ - `"TextAreaPicker.js"` - The TextAreaPicker custom component class which is located in app\view\common\form\field\.
