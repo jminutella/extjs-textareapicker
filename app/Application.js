@@ -17,6 +17,8 @@ Ext.define('TextAreaPickerApp.Application', {
 		],
 		
     launch: function () {
+			
+			// Create a simple panel to showcase our custom component
 			Ext.create('Ext.panel.Panel', {
 					title: 'TextAreaPicker Custom Component',
 					width: '100%',
